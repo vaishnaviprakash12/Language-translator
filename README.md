@@ -57,6 +57,5 @@ To deploy the Language Translation Web Application:
 
 Vaishnavi Prakash - [LinkedIn](https://www.linkedin.com/in/vaishnavi-prakash-b5547921a/) - [Email](mailto:vaishnaviprakash342@gmail.com)
 
-Project Link: [https://github.com/your-username/language-translation](https://github.com/your-username/language-translation)
-
+Project Link: [https://github.com/vaishnaviprakash12/Language-translator](https://github.com/vaishnaviprakash12/Language-translator)
 Live Site: [https://language-translator-0r0b.onrender.com/](https://language-translator-0r0b.onrender.com/)
