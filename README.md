@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 To deploy the Language Translation Web Application:
 
-1. Deploy ny selecting main branch 
+1. Deploy by selecting main branch 
 2. select home./ directory for building
 3. Deploy the application using your preferred hosting service.
 
