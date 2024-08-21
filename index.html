@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">  
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="dark-mode-toggle">
+    <i class="fas fa-moon"></i>
+    <input type="checkbox" id="dark-mode">
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+        <textarea spellcheck="false" readonly class="to-text" placeholder="Translation"></textarea>
+      </div>
+      <ul class="controls">
+        <li class="row from">
+          <div class="icons">
+            <i id="from-volume" class="fas fa-volume-up"></i> <!-- Volume Icon -->
+            <i id="from-copy" class="fas fa-copy"></i> <!-- Copy Icon -->
+          </div>
+          <select></select>
+        </li>
+        <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+        <li class="row to">
+          <select></select>
+          <div class="icons">
+            <i id="to-voice" class="fas fa-volume-up"></i>
+            <i id="to-copy" class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="loader" style="display: none;"></div>
+    <button>Translate Text</button>
+    <div class="history">
+      <h3>Translation History</h3>
+      <ul class="history-list"></ul>
+    </div>
+  </div>
+  
+  <script src="js/countries.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
